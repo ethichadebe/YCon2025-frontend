@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api', // ✅ Change this to your backend domain on deployment
+  baseURL: 'https://ycon2025-backend.onrender.com/api', // ✅ Change this to your backend domain on deployment
 })
 
 export const registerUser = async (formData) => {

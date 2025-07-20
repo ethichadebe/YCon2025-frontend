@@ -1,0 +1,51 @@
+.admin-container {
+    min-height: 100vh;
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, #63b3ed, #f7fafc);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #1a202c;
+  }
+  
+  table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  }
+  
+  thead {
+    background: #3182ce;
+    color: white;
+  }
+  
+  thead th {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  tbody tr:nth-child(even) {
+    background: #f0f4f8;
+  }
+  
+  td {
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #2d3748;
+  }
+  
+  tbody tr:hover {
+    background: #ebf8ff;
+    transition: background 0.3s;
+  }
+  

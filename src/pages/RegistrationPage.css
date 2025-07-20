@@ -1,0 +1,9 @@
+.registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #63b3ed, #f7fafc); /* matches intro theme */
+    font-family: 'Poppins', sans-serif;
+  }
+  
